@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --sidebar-width: 240px;
+}
+
 body {
     font-family: 'Roboto', Arial, sans-serif;
     background-color: #f9f9f9;
@@ -182,8 +186,8 @@ body {
 .sidebar {
     position: fixed;
     top: 56px;
-    left: -240px;
-    width: 240px;
+    left: calc(-1 * var(--sidebar-width));
+    width: var(--sidebar-width);
     height: calc(100vh - 56px);
     background-color: #fff;
     overflow-y: auto;
@@ -240,7 +244,7 @@ body {
 }
 
 .main-content.sidebar-open {
-    margin-left: 240px;
+    margin-left: var(--sidebar-width);
 }
 
 .content-area {

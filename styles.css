@@ -40,7 +40,7 @@ body {
     align-items: center;
     flex: 1;
     max-width: 640px;
-    margin: 0 auto;
+    margin: 0 40px;
     gap: 8px;
 }
 
@@ -130,7 +130,6 @@ body {
     width: 64px;
     height: 40px;
     border: 1px solid #ccc;
-    border-left: none;
     border-radius: 0 20px 20px 0;
     background-color: #f8f8f8;
     cursor: pointer;

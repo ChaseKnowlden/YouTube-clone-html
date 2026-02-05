@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Platform - YouTube Clone Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-content">
+            <div class="sidebar-item">
+                <span class="icon">🏠</span>
+                <span>Home</span>
+            </div>
+            <div class="sidebar-item">
+                <span class="icon">🔥</span>
+                <span>Trending</span>
+            </div>
+            <div class="sidebar-item">
+                <span class="icon">📁</span>
+                <span>Subscriptions</span>
+            </div>
+            <hr>
+            <div class="sidebar-item">
+                <span class="icon">🕐</span>
+                <span>History</span>
+            </div>
+            <div class="sidebar-item">
+                <span class="icon">▶️</span>
+                <span>Your videos</span>
+            </div>
+            <div class="sidebar-item">
+                <span class="icon">⏰</span>
+                <span>Watch later</span>
+            </div>
+            <div class="sidebar-item">
+                <span class="icon">👍</span>
+                <span>Liked videos</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <button id="hamburger-menu" class="icon-button" aria-label="Toggle sidebar menu">
+                <span class="icon">☰</span>
+            </button>
+            <a href="/" class="logo">
+                <span class="youtube-icon">▶️</span>
+                <span class="logo-text">YouTube</span>
+            </a>
+        </div>
+
+        <div class="navbar-center">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search" aria-label="Search">
+                <button class="search-button" type="button" aria-label="Search">
+                    <span class="icon">🔍</span>
+                </button>
+            </div>
+            <button class="icon-button microphone-button" aria-label="Voice search">
+                <span class="icon">🎤</span>
+            </button>
+        </div>
+
+        <div class="navbar-right">
+            <button class="icon-button create-button" aria-label="Create video">
+                <span class="icon">📹</span>
+            </button>
+            <button class="icon-button notifications-button" aria-label="Notifications">
+                <span class="icon">🔔</span>
+            </button>
+            <button class="sign-in-button" aria-label="Sign in">
+                <span class="icon">👤</span>
+                <span>Sign in</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-area">
+            <h1>Welcome to YouTube Clone</h1>
+            <p>This is a YouTube clone with a functional navbar.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

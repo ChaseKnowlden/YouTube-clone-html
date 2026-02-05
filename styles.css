@@ -56,9 +56,11 @@ body {
     font-size: 20px;
 }
 
-.logo i {
+.youtube-icon {
     color: #ff0000;
     font-size: 28px;
+    display: flex;
+    align-items: center;
 }
 
 .logo-text {
@@ -81,6 +83,13 @@ body {
     transition: background-color 0.2s;
     font-size: 20px;
     color: #030303;
+}
+
+.icon-button .icon {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon-button:hover {
@@ -136,6 +145,13 @@ body {
     color: #030303;
 }
 
+.search-button .icon {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Sign In Button */
 .sign-in-button {
     display: flex;
@@ -156,8 +172,10 @@ body {
     background-color: rgba(6, 95, 212, 0.1);
 }
 
-.sign-in-button i {
+.sign-in-button .icon {
     font-size: 24px;
+    display: flex;
+    align-items: center;
 }
 
 /* Sidebar Styles */
@@ -195,13 +213,16 @@ body {
     background-color: #f2f2f2;
 }
 
-.sidebar-item i {
+.sidebar-item .icon {
     font-size: 20px;
     width: 24px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.sidebar-item span {
+.sidebar-item span:not(.icon) {
     font-size: 14px;
 }
 

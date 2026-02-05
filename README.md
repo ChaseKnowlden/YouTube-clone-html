@@ -10,7 +10,7 @@
 
 **A modern, responsive YouTube clone built with pure HTML, CSS, and Vanilla JavaScript**
 
-[Demo](#demo) • [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Contributing](#contributing)
+[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Contributing](#contributing)
 
 </div>
 
@@ -219,7 +219,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## 📝 License
 
-Distributed under the MIT License. This means you are free to use, modify, and distribute this project for personal or commercial purposes. See `LICENSE` file for more information.
+Distributed under the MIT License. This means you are free to use, modify, and distribute this project for personal or commercial purposes.
 
 ---
 
